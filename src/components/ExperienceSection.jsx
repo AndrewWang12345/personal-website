@@ -30,8 +30,7 @@ export const ExperienceSection = () => {
               </h3>
               <p className="text-sm text-muted-foreground">Jan – Apr 2025</p>
               <p className="text-muted-foreground">
-                Built a full-stack ML system to detect fireballs from orbital meteor data,
-                enabling automated classification and tracking across Canada.
+                Built a full-stack system and ML model to visualize and track satellite contrails
               </p>
               <ul className="list-disc pl-5 text-muted-foreground space-y-1 pt-1">
                 <li>Built and deployed full-stack geospatial applications using FastAPI, React, and Mapbox to visualize contrails, flight paths, cameras, and fields of views over a span of 6 years, with server-side acceleration using Redis caching and Cython optimization.</li>
@@ -63,8 +62,7 @@ export const ExperienceSection = () => {
               </h3>
               <p className="text-sm text-muted-foreground">Sept – Dec 2023</p>
               <p className="text-muted-foreground">
-                Developed backend tooling for ingesting, transforming, and visualizing
-                climate and satellite datasets.
+                Optimized satellite imagery processing pipeline
               </p>
               <ul className="list-disc pl-5 text-muted-foreground space-y-1 pt-1">
                 <li>Achieved x15 speedup in satellite picture analytics pipeline using Cython and parallelization</li>
@@ -96,8 +94,7 @@ export const ExperienceSection = () => {
               </h3>
               <p className="text-sm text-muted-foreground">Jan – Apr 2023</p>
               <p className="text-muted-foreground">
-                Delivered analytics on national weather trends and created automated
-                reporting workflows for the Meteorological Service of Canada.
+                Delivered analytics on precipitation sensors accuracy for the Meteorological Service of Canada.
               </p>
               <ul className="list-disc pl-5 text-muted-foreground space-y-1 pt-1">
                 <li>Verified numerical detections from 4 years worth of precipitation data collected by over 900 weather station time series across Canada</li>
