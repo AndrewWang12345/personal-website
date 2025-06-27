@@ -11,20 +11,40 @@ const skills = [
   { name: "Next.js", level: 80, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
+  { name: "Python", level: 95, category: "backend" },
+  { name: "Cython", level: 95, category: "backend" },
+  { name: "FastAPI", level: 90, category: "backend" },
+  { name: "Node.js", level: 90, category: "backend" },
   { name: "Express", level: 75, category: "backend" },
   { name: "MongoDB", level: 70, category: "backend" },
   { name: "PostgreSQL", level: 65, category: "backend" },
   { name: "GraphQL", level: 60, category: "backend" },
 
+  // Machine Learning
+  { name: "Python", level: 95, category: "ml" },
+  { name: "PyTorch", level: 95, category: "ml" },
+  { name: "Detectron2", level: 90, category: "ml" },
+  { name: "TensorFlow", level: 90, category: "ml" },
+  { name: "OpenCV", level: 90, category: "ml" },
+  { name: "NumPy", level: 90, category: "ml" },
+  { name: "Pandas", level: 90, category: "ml" },
+  { name: "Scikit-learn", level: 90, category: "ml" },
+  { name: "Numba", level: 85, category: "ml" },
+
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
+  { name: "Docker", level: 70, category: "tools" },
+  { name: "Redis", level: 85, category: "tools" },
+  { name: "PostgreSQL", level: 95, category: "tools" },
+  { name: "Google Cloud Storage", level: 90, category: "tools" },
+  { name: "Azure", level: 90, category: "tools" },
+  { name: "Vercel", level: 90, category: "tools" },
   { name: "Docker", level: 70, category: "tools" },
   { name: "Figma", level: 85, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "machine learning", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
